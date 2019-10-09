@@ -68,5 +68,9 @@ void yc059_send_address(void);
 void yc059_send_byte(uint8_t byte);
 void yc059_send_word(uint16_t word);
 void yc059_send_stop(void);
+void yc059_ir_disable(void);
+void yc059_ir_enable(void);
+void yc059_ir_high(void);
+void yc059_ir_low(void);
 
 #endif
